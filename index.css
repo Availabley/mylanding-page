@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: url(omo/cctv.jpeg)no-repeat center center/cover;
+    filter: brightness(95%);
+}
+.head-top{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+   
+}
+@media screen and (max-width:600px){
+    .head-top{
+        display: flex;
+        gap: 2rem;
+    }
+    .text p{
+        display: none;
+    }
+}
+.head-top h2{
+    color: green;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.head-top h4{
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+.text h1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.text p{
+    color: orangered;
+    margin: 20px;
+}
+
+.form-container{
+    background-color: white;
+    color: green;
+    margin: 30px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    
+}
+.form-container form{
+    margin: 30px;
+}
+.form-container form input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid gray;
+}
+.form-container form #form-btn{
+    padding: 10px 15px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px  rgb(0, 0, 0, .3);
+}
+/*the service contents*/
+.service{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 30px;
+    margin: 30px;
+}
+@media screen and (max-width:600px){
+    .service{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+        
+    }
+}
+.service div{
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.service #service-child{
+    background-color: green;
+    color: white;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, .3);
+}
+#service-child p{
+    color: white;
+    
+}
+.service div h4{
+    text-transform: capitalize;
+    margin: 5px;
+    font-family: sans-serif;
+}
+.service div p{
+    color: gray;
+    margin: 1px;
+    
+}
+.service div img{
+    width: 30px;
+    margin: 10px;
+}
+
+/*the about section*/
+.whychoose{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 30px;
+    color: gray;
+    padding-top: 30px;
+}
+@media screen and (max-width:600px){
+    .whychoose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30px;
+    }
+}
+.whychoose img{
+    width: 300px;
+}
+.whychoose p{
+    font-family: serif;
+}
+.whychoose-child1{
+    padding: 10px;
+}
+.whychoose-child1 h3{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: black;
+}
+.whychoose-child1 ul{
+    list-style-type: none;
+    color: green;
+    font-family: sans-serif;
+}
+/*the members section container*/
+.members{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.members h3{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+@media screen and (max-width:600px){
+    .members .imagies{
+        display: inline-block;
+    }
+}
+.imagies{
+    display: flex;
+    gap: 1rem;
+}
+.imagies div img{
+    width: 150px;
+}
+.imagies div{
+    width: 200px;
+}
+.imagies div p{
+    color: gray;
+}
+.imagies div h4{
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+/*the middle contact me page*/
+.middle{
+    background: url(omo/cctv.jpeg) no-repeat center center/cover;
+    filter: brightness(40%);
+}
+.middle .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.contact h3{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.contact #middle-btn{
+    padding: 10px 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px  rgb(0, 0, 0, .3);
+}
+
+/*customers testimonia page*/
+.customers h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.customers-top{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+@media screen and (max-width:600px){
+    .customers-top{
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.customers-child p{ 
+  color: gray;
+  margin: 10px;
+}
+.customers-child #flex img{
+   width: 100px;
+   border-radius: 30px;
+}
+.customers-child{
+    width: 250px;
+    box-shadow: 0 4px 8px;
+}
+#flex{
+    font-family: sans-serif;
+    display: flex;
+    width: 100px;
+    gap: 1rem;
+}
+
+/*the footer elements*/
+footer{
+    background-color: rgb(237, 232, 232);
+}
+.footer-child{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image{
+    float: right;
+}
+.footer-image img{
+    width: 20px;
+    margin: 10px;
+}
